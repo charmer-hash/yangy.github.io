@@ -241,11 +241,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #00BCD4 0%, #00BCD4 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #00BCD4 !important;
 }
 
 .white-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #00BCD4 0%, #00BCD4 100%);
     opacity: 0.8;
 }
 
@@ -290,13 +290,14 @@ header nav .brand-span {
 }
 
 header .brand-logo .logo-img {
-    height: 45px;
+    height: 40px;
     vertical-align: middle;
     padding-bottom: 6px;
 }
 
 header .brand-logo .logo-span {
     font-size: 1.6rem;
+    vertical-align: 10px;
 }
 
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
